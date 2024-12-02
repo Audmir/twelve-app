@@ -1,0 +1,14 @@
+#this is the insertion link:
+add_engine: http://localhost/engine_management/v1/add-engine.php?numero_chassi={<numero_chassi>}&annee_fab={<annee_fab>}&marque={<marque>}&nombre_roues={<nombre_roues>}&couleur={<couleur>}&pay_orig={<pay_orig>}&nombre_portes={<nombre_portes>}&plaque={<plaque>}&modele={<modele>}&categorie={<categorie>}&prop_id={<prop_id>}&chauf_id={<chauf_id>}
+add_owner: http://localhost/engine_management/v1/add-owner.php?chauf_id={<prop_id>}&nom_compl={<nom_compl>}&data_naiss={<data_naiss>}&lieu_naiss={<lieu_naiss>}&adress={<adress>}&etat_civil={<etat_civil>}&phone={<phone>}&email={<email>}&photo={<photo>},
+insert_driver: http://localhost/engine_management/v1/add-driver.php?chauf_id={<chauf_id>}&nom_compl={<nom_compl>}&data_naiss={<data_naiss>}&lieu_naiss={<lieu_naiss>}&adress={<adress>}&etat_civil={<etat_civil>}&phone={<phone>}&email={<email>}&photo={<photo>},
+
+#this is the the deletion link:
+
+#this is the update link:
+
+#this is the fetch link:
+fetch_engine_data: http://localhost/engine_management/v1/fetch-engine.php
+fetch_owner:http://localhost/engine_management/v1/fetch-owner.php,
+fetch_driver:http://localhost/engine_management/v1/fetch-driver.php
+
